@@ -10,3 +10,5 @@ def people_hours(duration_hours, attendees):
     if attendees == None:
         attendees = 0
     return duration_hours * attendees
+
+print(people_hours(1.5, 6))
