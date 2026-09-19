@@ -18,3 +18,4 @@ def meeting_cost(duration_hours, cost_per_person):
     return total / duration_hours
 
 print(people_hours(1.5, 6))
+print( meeting_cost(2, c) )
